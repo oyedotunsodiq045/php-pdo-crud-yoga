@@ -1,3 +1,5 @@
+DROP DATABASE crud_php_pdo_yoga;
+
 CREATE DATABASE crud_php_pdo_yoga;
 
 --
@@ -19,10 +21,10 @@ CREATE TABLE IF NOT EXISTS `crud_php_pdo_yoga`.`products`  (
 --
  
 INSERT INTO `crud_php_pdo_yoga`.`products` (`id`, `name`, `description`, `price`, `created`, `modified`) VALUES
-(1, 'Basketball', 'A ball used in the NBA.', 49.99, '2020-08-02 12:04:03', '2020-08-06 06:59:18'),
-(3, 'Gatorade', 'This is a very good drink for athletes.', 1.99, '2020-08-02 12:14:29', '2020-08-06 06:59:18'),
-(4, 'Eye Glasses', 'It will make you read better.', 6, '2020-08-02 12:15:04', '2020-08-06 06:59:18'),
-(5, 'Trash Can', 'It will help you maintain cleanliness.', 3.95, '2020-08-02 12:16:08', '2020-08-06 06:59:18'),
-(6, 'Mouse', 'Very useful if you love your computer.', 11.35, '2020-08-02 12:17:58', '2020-08-06 06:59:18'),
-(7, 'Earphone', 'You need this one if you love music.', 7, '2020-08-02 12:18:21', '2020-08-06 06:59:18'),
-(8, 'Pillow', 'Sleeping well is important.', 8.99, '2020-08-02 12:18:56', '2020-08-06 06:59:18');
+(1, 'Basketball', 'A ball used in the NBA.', 49.99, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(3, 'Gatorade', 'This is a very good drink for athletes.', 1.99, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(4, 'Eye Glasses', 'It will make you read better.', 6, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(5, 'Trash Can', 'It will help you maintain cleanliness.', 3.95, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(6, 'Mouse', 'Very useful if you love your computer.', 11.35, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(7, 'Earphone', 'You need this one if you love music.', 7, '2020-05-26 10:25:03', '2020-08-06 10:25:03'),
+(8, 'Pillow', 'Sleeping well is important.', 8.99, '2020-05-26 10:25:03', '2020-08-06 10:25:03');
